@@ -1,6 +1,7 @@
 'use client';
 
 import { supabase } from '@/lib/supabase';
+import '../globals.css';
 
 export default function AuthPage() {
   const handleGoogleLogin = async () => {
